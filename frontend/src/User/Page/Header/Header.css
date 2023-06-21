@@ -1,0 +1,33 @@
+.rounded {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  border-radius: 55px;
+  color: black;
+}
+
+.container {
+  width: 16rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(154, 13, 8);
+  color: white;
+  border-radius: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    width: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rounded {
+    height: 14px;
+    width: 14px;
+  }
+}

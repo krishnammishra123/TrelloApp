@@ -1,0 +1,7 @@
+ .container1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+  border-radius: 15px;
+  overflow: auto;
+}

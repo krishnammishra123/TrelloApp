@@ -1,0 +1,41 @@
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin: 15px; 
+}
+
+.projectList div {
+  padding: 10px;
+  border: 2px solid #dfa5a5;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.05s;
+}
+.name{
+    cursor: pointer;
+}
+.createrName{
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  float: right;
+  cursor: pointer;
+}
+
+.projectList div:hover {
+  background-color: #f2f2f2;
+  box-shadow: rgba(22, 62, 195, 0.95) 1px 1px 10px;
+  transform: scale(1.03);
+}
+
+.notfound{
+  font-weight: bold;
+  color: red;
+}

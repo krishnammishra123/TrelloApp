@@ -1,0 +1,15 @@
+.Home {
+  background-image: url("/home/dw/Desktop/React REDUX Practice/Trello App/trelloapp/public/assets/image/img.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Home h1 {
+  color: white;
+  text-align: center;
+}
