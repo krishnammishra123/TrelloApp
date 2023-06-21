@@ -1,5 +1,7 @@
 # TrelloApp
 I have developed a Trello app using the MERN (MongoDB, Express, React, Node.js) stack.
+=>client = NPM START.
+=>Server=  NPM START.
 The app includes the following features:
 1.User Registration and Login: Users can register and log in to the app using JWT (JSON Web Token) authentication. Passwords are securely hashed using bcrypt.
 
